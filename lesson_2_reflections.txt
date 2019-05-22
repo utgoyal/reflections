@@ -21,3 +21,8 @@ How do the diagrams help you visualize the branch structure?
 Diagrams help us understand the co relation between the various commits and branches. We can 
 use diagrams to understand what commit was the last one when a particular branch was created
 this helps us understand the changes that have or have not been implemented in a branch
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The result of merging two branches is that the code that was already present in the two branches
+parent file but not deleted by either will remain the same. The code deleted by either branch
+will get deleted and the code that is new to either branch will be included.
