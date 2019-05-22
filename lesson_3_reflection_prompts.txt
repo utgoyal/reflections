@@ -13,3 +13,9 @@ What is the benefit of having a copy of the last known state of the remote store
 It would let us know whether someone who is contributing to the git repo online has made
 a change to the repository and whether it is conflicting with the changes that we have
 made .
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+It would be almost impossible to collaborate without Git or Github, we would have to make separate files 
+for different time stamps and check with the FC command for what changes have been made to the original file
+this would mean maintaining a large number of files to keep track of the progress. The easier way would be
+using Git and Github.
