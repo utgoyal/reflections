@@ -26,3 +26,11 @@ What is the result of merging two branches together? Why do we represent it in t
 The result of merging two branches is that the code that was already present in the two branches
 parent file but not deleted by either will remain the same. The code deleted by either branch
 will get deleted and the code that is new to either branch will be included.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Gits automatic merging saves time and is ususally good in resolving problems, however,
+if a merge has a conflict git is not that powerful in handling such situations and 
+therefore it requires us to do a manual commit. Doing manual commits all the time
+would mean spending 10's of hours on your computer screen figuring out what the problem was
+The power of automatic commits with conflicts helps the user figure out the problem in a 
+faster way and thus saves time.
